@@ -5,4 +5,4 @@ Repo of all personal solutions of [leetcode](https://leetcode.com/) problems in 
 ###Note:
 
 - Only working solutions
-- May not be optimal.
+- May not be optimal
