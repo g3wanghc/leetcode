@@ -6,6 +6,7 @@
  * }
  */
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) ListNode {
+    
     var l1_node = &l1
     var l2_node = &l2
     
@@ -13,7 +14,7 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) ListNode {
     var l3_node = &l3
     var l3_empty bool = true
    
-    var carry_over = false
+    var carry_over bool = false
     
     for (*l1_node) != nil || (*l2_node) != nil || carry_over {
         var sum int = 0
