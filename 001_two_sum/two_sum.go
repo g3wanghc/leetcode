@@ -4,7 +4,6 @@ func twoSum(nums []int, target int) []int {
 			if nums[i]+nums[j] == target {
 				return []int{i, j}
 			}
-
 		}
 	}
 	return []int{-1, -1}
