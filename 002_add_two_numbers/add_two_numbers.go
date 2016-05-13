@@ -5,8 +5,8 @@
  *     Next *ListNode
  * }
  */
+
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) ListNode {
-    
     var l1_node = &l1
     var l2_node = &l2
     
