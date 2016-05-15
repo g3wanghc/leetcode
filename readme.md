@@ -7,5 +7,5 @@ Contributions are welcome. Just make a pull request. :grin:
 
 ###Note:
 
-- Only working solutions
-- May not be optimal
+- Solutions has to pass the auto marker
+- Solutions may not be optimal
