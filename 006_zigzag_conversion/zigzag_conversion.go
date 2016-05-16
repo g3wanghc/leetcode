@@ -1,13 +1,20 @@
-func convert(s string, numRows int) int {
-    var s_len int = len(s)
-    var r_b = make([]byte, s_len)
-    var r_s string = string(r_b[:s_len])
+func convert(s string, numRows int) string {
+    var converted_string string
  
-    var r_i int
-    
-    if r_i % (numRows -1) == 0{
-        
+    converted_string += filter_by_index(s, func(i int) bool {
+    			return i % ((numRows - 1) * 2) == 0
+    		})
+
+    return converted_string
+}
+
+	
+func filter_by_index(s string, f func(int) bool) string {
+    var sf string
+    for i, c := range s {
+        if f(i) {
+            sf += string(c)
+        }
     }
-           
-    return r_i
+    return sf
 }
