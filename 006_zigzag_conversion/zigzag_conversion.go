@@ -19,7 +19,6 @@ func convert(s string, numRows int) string {
 
     return converted_string
 }
-
     
 func filter_by_index(s string, f func(int) bool) string {
     var sf string
