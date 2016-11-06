@@ -1,11 +1,10 @@
 # leetcode
 
-Repo of all personal solutions of [leetcode](https://leetcode.com/) problems in goLang.
+Repo of all personal solutions of [leetcode](https://leetcode.com/) problems in goLang and python.
 
 ###Contribute:
 Contributions are welcome. Just make a pull request. :grin:
 
 ###Note:
 
-- Solutions has to pass the auto marker
-- Solutions may not be optimal
+- Solutions must pass the auto marker
